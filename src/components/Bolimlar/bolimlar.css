@@ -1,0 +1,18 @@
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.bolim_h1{
+    color: #A5BBDC;
+    border-left:  10px solid #02B0E4;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+  

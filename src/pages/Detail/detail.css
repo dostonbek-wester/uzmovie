@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+}
+
+.det-big-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+.main-box{
+    width: 100%;
+    background-color: #24303D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 400px;
+}
+.main-box-wr{
+    /* height: 400px; */
+    width: 70%;
+}
+.det-tasodif{
+    width: 30%;
+    border: 1px solid white;
+}
+
+
+.movie-img{
+    height: 350px;
+    width: 250px;
+    margin-top: 24px;
+}
+
+
+.left-detail{
+    width:35%;
+    height: 100%;
+    background-color: #24303D;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+
+.right-detail{
+    width: 65%;
+    height: 100%;
+    background-color:#24303D;
+    padding-top: 24px;
+}
+
+
+.right-detailsbt{
+    width: 100px;
+    height: 36px;
+    margin-left: 70px;
+    background-color: #304156;
+    border: none;
+    color: #9ABBCF;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 9px;
+}
+
+
+.rightdetailbox{
+    width: calc(100% - 100px);
+    height: 36px;
+    background-color:#222933;
+    margin-bottom: 10px;
+    color: #6D8FA6;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    font-weight: 400;
+}
+
+
+.rightmaindetailbox{
+    display: flex;
+    padding-right: 30px;
+}
+
+
+.marks{
+    height: 50px;
+    width: 50px;
+    background-color: #24303D;
+    border: 1px solid  #304156;
+    color: #096D15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.marks-red:hover{
+    background-color:#096D15;
+    cursor: pointer;
+}
+.marks-green:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.marksbox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    display: flex;
+}
+
+.name-of-film{
+    color: #A5BBDC;
+    font-size: x-large;
+    
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 50px;
+    border-left:  8px solid #02B0E4 ;
+}
+
+.coment-container{
+    height: 1000px;
+    width: 70%;
+    background-color:#24303D;
+}
+
+
+.coment-name{
+    height: 80px;
+    width: 70%;
+    background-color:#2c3c4e;
+    box-shadow: 0px 10px 10px #1D2630;
+    
+    display: flex;
+    align-items: center;
+    padding-left:20px ;
+}
+
+.input{
+    height: 100%;
+    width: 100%;
+    color: grey;
+    font-weight: 300;
+    font-size:medium;
+    background-color:#2c3c4e;
+    border: none;
+    outline: none;
+    
+    
+
+}
+
+
+
+
+
+

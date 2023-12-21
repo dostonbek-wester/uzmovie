@@ -1,0 +1,31 @@
+.movie-card{
+	width: 250px;
+	height: 420px;
+	padding: 10px;
+	position: relative;
+	background-color: #1D232C;
+}
+
+.movie-card img{
+	width: 100%;
+}
+
+.card-date{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #CB1535;
+	color: white;
+	border: none;
+	height: 30px;
+}
+
+button:hover{
+	background-color: #304156;
+}
+
+.card_p{
+	width: 100%;
+	background-color: #222933;
+	color: #A5BBDC;
+}
